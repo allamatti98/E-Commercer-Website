@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+
+/*Homepage Images Slideshow*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-height: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+/* SUSPENDED!!!
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.taylor-image {
+  height: 640px;
+  object-fit: cover; /* To prevent stretching*/
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+<!--Shifter-->
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+
+
+
+
+
+  /* Menu Styling*/
+  /*To fit cover Pictures*/
+  .menu-profile {
+  height: 200px;
+  object-fit: cover; /* To prevent stretching*/
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- Home Page -->
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class= "fa fa-home"></i> HOME</a>
+    <a href="#simulators" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-car"></i> SIMULATORS</a>
+    <a href="#bar&lounge" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-glass"></i> BAR & LOUNGE</a>
+    <a href="#menu" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MENU</MENU></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-phone"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#simulators" class="w3-bar-item w3-button" onclick="toggleFunction()">Simulators</a>
+    <a href="#bar&lounge" class="w3-bar-item w3-button" onclick="toggleFunction()">Bar & Lounge</a>
+    <a href="#menu" class="w3-bar-item w3-button" onclick="toggleFunction()">Our Menu</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+
+
+
+  <! -- Slideshow HTML -->
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class = "taylor-image" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Cocktail1.jpg" style="width:100%">
+      <div class="text">Bar</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class = "taylor-image" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%202.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img class = "taylor-image" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Lounge%202.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+
+    <!--Company Logo in a box-->
+    </div>
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-jumbo">
+      <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">X-DRIVE MOTORSPORT</h1>
+      <h5 id = "home"class="w3-hide-large" style="white-space:nowrap">X-DRIVE MOTORSPORT</h5>
+      <h3 class="w3-hide-medium w3-hide-small">SIMULATION</h3>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+
+<!-- Offers content -->
+<div class="w3-content" style="max-width:1100px;">
+
+
+
+  <!-- Trending -->
+  
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Cocktail%202.jpg" alt="Cinque Terre" style="width:100%">
+        <span class="w3-display-bottomleft w3-padding">Offers 1</span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img class = "Offers" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Chips.jpg" alt="New York" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Offers 2</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bar.jpg" alt="San Francisco" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Offers 3</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Rally%20Car.jpg" alt="Pisa" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Offers 4</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Parking%201.jpg" alt="Paris" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Offers 5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Simulators -->
+<div class="w3-jumbo">
+  <p id="simulators">Simulators</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Bar and Lounge -->
+<div class="w3-jumbo">
+  <p id="bar&lounge">Bar & Lounge</p>
+</div>
+<!-- Bar & Lounge -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <div class="w3-opacity">
+  <div class="w3-clear"></div>
+  
+  <!-- Padding Button Suspended-->
+  <!--
+  <header class="w3-center w3-margin-bottom">
+    <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+  -->
+  
+</header>
+  </div>
+  
+  <!-- Photo Grid -->
+  <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+    <div class="w3-third">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bar.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Club%204.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%206.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bar%201.jfif" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Lounge%201.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%207.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Juice%203.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%204.jpg" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Lounge%202.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%204.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Club%201.jfif" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%202.webp" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%203.jfif" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%205.png" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%205.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%201.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Lounge%203.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%202.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Cocktail%202.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Chips.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Juice%202.jpg" style="width:100%">
+      <img src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Juice%201.jpg" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- End Page Content -->
+  </div> 
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- OurMenu -->
+<div class="w3-jumbo">
+  <p id="menu">Our Menu</p>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-aqua">
+      <img class = "menu-profile" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%204.jpg" style="width:100%">
+      <h2>Our Breakfast</h2> 
+      <p> Start your day with some good breakfast.</p>
+    </div>
+  </div>
+  
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-aqua">
+      <img class="menu-profile" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Food%2012.jfif" style="width:100%">
+       <h2>Mealtime</h2>
+      <p>Be it day or night, there's always room for good food.</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="w3-row w3-container" style="margin:50px 0">
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-aqua">
+      <img class = "menu-profile" src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Bottles%205.png" style="width:100%">
+       <h2>Drinks</h2> 
+      <p>All beverages are available and served cold.</p>
+    </div>
+  </div>
+  
+  <div class="w3-half w3-container">
+    <div class="w3-topbar w3-border-aqua">
+      <img class="menu-profile"  src="file:///C:/Users/CYBERTECH/X-DRIVE/Images/Cocktail%203.jpg" style="width:100%">
+       <h2>Cocktails</h2> 
+      <p>Best of Mixology.</p> 
+      </div>
+  </div>
+  </div>
+
+
+
+
+  
+
+
+
+
+</div> <!-- It was put here to ensure padding on StickUp Grid -->
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <h5 id="contact">Get in Touch</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Designed by Dayan Allamatti</p>
+
+
+</footer>
+
+
+
+
+
+
+<!-- Javascript-->
+<script>
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+//Slideshow Script
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+// Toggle grid padding (Suspended Script)
+/*
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+*/
+
+
+
+
+</script>
+</body>
+</html>
